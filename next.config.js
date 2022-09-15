@@ -13,5 +13,5 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = nextConfig, withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
-  basePath: ''
+  basePath: 'https://artbitrage.github.io/login-tw3/'
 })
