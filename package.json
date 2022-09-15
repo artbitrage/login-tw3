@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env ANALYZE=true next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export",
+    "export": "cross-env ANALYZE=true next build && next export",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test": "start-server-and-test start http://localhost:3000 cy:run"
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.3.0",
+    "cross-env": "^7.0.3",
     "cypress": "^10.8.0",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
