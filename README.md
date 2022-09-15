@@ -1,4 +1,4 @@
-[![Login Template (Tailwind 3)](https://github.com/artbitrage/login-tw3/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/artbitrage/login-tw3/actions/workflows/node.js.yml)
+[![Deploy](https://github.com/artbitrage/login-tw3/actions/workflows/nextjs.yml/badge.svg?branch=main)](https://github.com/artbitrage/login-tw3/actions/workflows/nextjs.yml)
 [![CodeQL](https://github.com/artbitrage/login-tw3/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/artbitrage/login-tw3/actions/workflows/codeql-analysis.yml)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
