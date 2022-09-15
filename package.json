@@ -13,14 +13,14 @@
     "test": "start-server-and-test start http://localhost:3000 cy:run"
   },
   "dependencies": {
-    "next": "12.2.5",
+    "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "cypress": "^10.7.0",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
+    "cypress": "^10.8.0",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
     "start-server-and-test": "^1.14.0"
   },
   "repository": {
